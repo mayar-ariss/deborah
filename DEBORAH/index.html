@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A brief description of your website">
+    <meta name="keywords" content="comma, separated, list, of, keywords">
+    <meta name="author" content="Your Name">
+    <title>Context-based Biophilic perception dataset</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <form action="submit.php" method="POST">
+        <div class="title-container">
+    <h1 class="title">Context-based Biophilic perception dataset</h1>
+</div>
+
+    <div class="container">
+        <div class="question-title">
+          <h3>1_ Which image makes you feel positively connected with nature?</h3>
+        </div>
+
+        <div class="image-container">
+            <div class="image-wrapper">
+                <img id="image1" src="" alt="First Image">
+            </div>
+            <div class="image-space"></div>
+            <div class="image-wrapper">
+                <img id="image2" src="" alt="Second Image">
+            </div>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+
+      <div class="container">
+        <div class="question-title">
+          <h3>2_ Pinpoint the two elements that bring you more beneficial effects (drag the icon)</h3>
+        </div>
+        <div class="selected-image">
+            <img id="selectedImage" src="" alt="Selected Image">
+            <div id="pin1" class="pin"></div>
+            <div id="pin2" class="pin"></div>
+          </div>
+          
+      </div>
+      <div class="container">
+        <div class="question-title">
+          <h3>3_ Comment on the pinpointed features and add any other element that inspires you to interact with nature</h3>
+          <textarea name="comment" rows="20" cols="120"></textarea>
+        </div>
+      </div>
+      <div style="text-align: center;">
+        <button class="submit-button" >Submit</button>
+      </div>    
+
+    </form>
+      
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
